@@ -90,7 +90,6 @@ public class Main {
         // Calcul du TCMP
         double tcmp = (tassert != 0) ? (double) tloc / tassert : 0.0;
         tcmp = Math.round(tcmp * 100.0) / 100.0;
-        System.out.println(tcmp);
 
         // Formatting de la ligne. Locale.US nous permet de montrer le TCMP avec un point et non une virgule
         String csvLine = String.format(Locale.US, "%s, %s, %s, %d, %d, %.2f%n",
