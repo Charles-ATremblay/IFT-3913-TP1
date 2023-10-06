@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IFT-3913-TP1-TLOC:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IFT_3913_TP1_TLOC_jar</output-path>
+    <root id="archive" name="IFT-3913-TP1-TLOC.jar">
+      <element id="module-output" name="IFT-3913-TP1-TLOC" />
+    </root>
+  </artifact>
+</component>
