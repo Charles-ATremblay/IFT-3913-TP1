@@ -18,7 +18,7 @@ public class Main {
 
     public static void main(String[] args) {
         // verifier quil y a au moins 2 arguments, le input dir et le output file
-        if (args.length < 2) {
+        if (args.length < 1) {
             System.err.println("Usage: tls <input-directory> [-o <output-file>]");
             System.exit(1);
         }
@@ -36,6 +36,7 @@ public class Main {
                 break;
             }
         }
+
 
         // S'il n'y a pas de flag -o, on utilise simplement le 2e argument comme le outputfile
         if (outputFile == null && args.length >= 2) {
@@ -64,12 +65,17 @@ public class Main {
         if (outputFile != null) {
             try (FileWriter fileWriter = new FileWriter(outputFile, false)) {
                 for (String metricsLine : metricsLines) {
-                    // Write each line to the CSV file
                     fileWriter.write(metricsLine);
                 }
             } catch (IOException e) {
                 System.err.println("Error writing to the output file: " + e.getMessage());
                 System.exit(1);
+            }
+        }
+        else {
+            // Si il n'y a pas de outputFile, on fait simplement imprimer le resultat
+            for (String metricsLine : metricsLines) {
+                System.out.print(metricsLine);
             }
         }
     }
