@@ -3,7 +3,7 @@
 - Membre 2 : Hassan Abass
 
 Lien vers le Dépôt GitHub :
-[[Insérez ici le lien vers votre dépôt GitHub]](https://github.com/Charles-ATremblay/IFT-3913-TP1)
+[[IFT-3913-TP1]](https://github.com/Charles-ATremblay/IFT-3913-TP1)
 
 Instructions d'utilisation :
 
