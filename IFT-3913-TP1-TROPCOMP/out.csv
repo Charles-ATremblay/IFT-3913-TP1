@@ -1,0 +1,6 @@
+chemin du fichier, nom du paquet, nom de la classe, tloc de la classe, tassert de la classe, tcmp de la classe
+./TitleTest.java, org.jfree.chart.title, TitleTest, 39, 11, 3.55
+./TextTitleTest.java, org.jfree.chart.title, TextTitleTest, 81, 25, 3.24
+./ShortTextTitleTest.java, org.jfree.chart.title, ShortTextTitleTest, 40, 9, 4.44
+./DateTitleTest.java, org.jfree.chart.title, DateTitleTest, 55, 15, 3.67
+./CompositeTitleTest.java, org.jfree.chart.title, CompositeTitleTest, 83, 19, 4.37
